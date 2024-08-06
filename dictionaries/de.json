@@ -1,1 +1,10 @@
-{ "first": "Vandar catrgtru" }
+{
+  "first": "Vandar catrgtru",
+  "dropdown": {
+    "title": "Sprachen",
+    "languages": ["Englisch", "Spanisch", "Französisch", "Italienisch", "Russisch", "Deutsch"]
+  },
+  "navbar": {
+    "nav": ["LIVE GENIESSEN", "VERBINDEN", "GESCHICHTEN", "INSPIRIEREN", "KONTAKT"]
+  }
+}

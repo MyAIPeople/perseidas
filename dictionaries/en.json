@@ -1,1 +1,10 @@
-{ "first": "First Text" }
+{
+  "first": "First Text",
+  "dropdown": {
+    "title": "Languages",
+    "languages": ["English", "Spanish", "French", "Italian", "Russian", "German"]
+  },
+  "navbar": {
+    "nav": ["ENJOY LIVE", "CONNECT", "STORIES", "INSPIRE", "CONTACT"]
+  }
+}

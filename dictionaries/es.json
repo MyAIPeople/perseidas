@@ -1,1 +1,10 @@
-{ "first": "Primer texto" }
+{
+  "first": "Primer texto",
+  "dropdown": {
+    "title": "Idiomas",
+    "languages": ["Inglés", "Español", "Francés", "Italiano", "Ruso", "Alemán"]
+  },
+  "navbar": {
+    "nav": ["DISFRUTA EN VIVO", "CONECTAR", "HISTORIAS", "INSPÍRATE", "CONTÁCTENOS"]
+  }
+}

@@ -1,1 +1,10 @@
-{ "first": "Pgimeg textua" }
+{
+  "first": "Pgimeg textua",
+  "dropdown": {
+    "title": "Langues",
+    "languages": ["Anglais", "Espagnol", "Français", "Italien", "Russe", "Allemand"]
+  },
+  "navbar": {
+    "nav": ["PROFITEZ EN DIRECT", "CONNECTER", "HISTOIRES", "INSPIRER", "CONTACT"]
+  }
+}

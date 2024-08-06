@@ -1,1 +1,10 @@
-{ "first": "Primeli textino" }
+{
+  "first": "Primeli textino",
+  "dropdown": {
+    "title": "Lingue",
+    "languages": ["Inglese", "Spagnolo", "Francese", "Italiano", "Russo", "Tedesco"]
+  },
+  "navbar": {
+    "nav": ["DIVERTITI DAL VIVO", "COLLEGATI", "STORIE", "ISPIRA", "CONTATTO"]
+  }
+}
