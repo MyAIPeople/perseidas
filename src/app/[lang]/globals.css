@@ -67,3 +67,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+#box {
+  animation: animate 4s infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translatey(-20px);
+  }
+  50% {
+    transform: translatey(0px);
+  }
+  100% {
+    transform: translatey(-20px);
+  }
+}

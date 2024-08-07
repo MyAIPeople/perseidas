@@ -34,15 +34,15 @@ const NavbarDropdown = () => {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger className="shadow shadow-red-900 rounded-md p-0.5 bg-black/60 backdrop-blur-sm">
+      <DropdownMenuTrigger className="shadow shadow-yellow-500 rounded-md p-0.5 bg-black/60 backdrop-blur-sm">
         <div className="flex items-center gap-2 px-2">
-          <span className="text-white">{lang && lang.toUpperCase()}</span>
+          <span className="text-yellow-100">{lang && lang.toUpperCase()}</span>
           {actualFlag && (
             <Image src={actualFlag?.src} alt="flag" height={actualFlag?.height} width={actualFlag?.width} />
           )}
         </div>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="border-red-600 bg-black/60 backdrop-blur-sm translate-y-4">
+      <DropdownMenuContent className="border-yellow-500 bg-black/60 backdrop-blur-sm translate-y-4">
         <DropdownMenuLabel className="text-primary-foreground">{dropdown.title}</DropdownMenuLabel>
         <DropdownMenuSeparator />
         {i18n.locales.map((locale, i) => {

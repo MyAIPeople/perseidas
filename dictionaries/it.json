@@ -6,5 +6,9 @@
   },
   "navbar": {
     "nav": ["DIVERTITI DAL VIVO", "COLLEGATI", "STORIE", "ISPIRA", "CONTATTO"]
+  },
+  "home": {
+    "h1": "PERSEIDAS",
+    "button": "Conferma"
   }
 }

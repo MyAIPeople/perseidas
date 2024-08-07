@@ -6,5 +6,9 @@
   },
   "navbar": {
     "nav": ["PROFITEZ EN DIRECT", "CONNECTER", "HISTOIRES", "INSPIRER", "CONTACT"]
+  },
+  "home": {
+    "h1": "PERSEIDAS",
+    "button": "Confirmer"
   }
 }

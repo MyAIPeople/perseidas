@@ -6,5 +6,9 @@
   },
   "navbar": {
     "nav": ["ENJOY LIVE", "CONNECT", "STORIES", "INSPIRE", "CONTACT"]
+  },
+  "home": {
+    "h1": "PERSEIDAS",
+    "button": "Confirm"
   }
 }

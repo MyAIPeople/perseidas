@@ -1,0 +1,25 @@
+{
+  "images": [
+    {
+      "url": "/starry-night-sky.jpg",
+      "alt": "image 1",
+      "key": "image 1",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "url": "/perseidas-2.jpg",
+      "alt": "image 2",
+      "key": "image 2",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "url": "/perseidas-3.jpg",
+      "alt": "image 3",
+      "key": "image 3",
+      "width": 1920,
+      "height": 1080
+    }
+  ]
+}
