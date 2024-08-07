@@ -5,10 +5,17 @@
     "languages": ["Englisch", "Spanisch", "Französisch", "Italienisch", "Russisch", "Deutsch"]
   },
   "navbar": {
-    "nav": ["LIVE GENIESSEN", "VERBINDEN", "GESCHICHTEN", "INSPIRIEREN", "KONTAKT"]
+    "nav": ["GENIESSEN", "VERBINDEN", "GESCHICHTEN", "INSPIRIEREN", "KONTAKT"]
   },
   "home": {
     "h1": "PERSEIDAS",
     "button": "Bestätigen"
+  },
+  "enjoy": {
+    "h1": {
+      "span1": "GENIESSEN SIE",
+      "span2": "PERSEIDEN",
+      "span3": ""
+    }
   }
 }

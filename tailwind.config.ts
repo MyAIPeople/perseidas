@@ -15,6 +15,7 @@ const config: Config = {
       fontFamily: {
         roboto_mono: ["var(--font-roboto_mono)"],
         caveat: ["var(--font-caveat)"],
+        oswald: ["var(--font-oswald)"],
       },
     },
   },

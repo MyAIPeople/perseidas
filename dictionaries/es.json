@@ -5,10 +5,17 @@
     "languages": ["Inglés", "Español", "Francés", "Italiano", "Ruso", "Alemán"]
   },
   "navbar": {
-    "nav": ["DISFRUTA EN VIVO", "CONECTAR", "HISTORIAS", "INSPÍRATE", "CONTÁCTENOS"]
+    "nav": ["DISFRUTA", "CONECTAR", "HISTORIAS", "INSPÍRATE", "CONTÁCTENOS"]
   },
   "home": {
     "h1": "PERSEIDAS",
     "button": "Confirmar"
+  },
+  "enjoy": {
+    "h1": {
+      "span1": "DISFRUTA",
+      "span2": "PERSEIDAS",
+      "span3": ""
+    }
   }
 }

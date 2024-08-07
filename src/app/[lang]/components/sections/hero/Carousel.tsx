@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import * as imagesObj from "./imgsCarousel.json";
 
-const Carousel = () => {
+const Carousel1 = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const { images } = imagesObj;
 
@@ -62,4 +62,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+export default Carousel1;

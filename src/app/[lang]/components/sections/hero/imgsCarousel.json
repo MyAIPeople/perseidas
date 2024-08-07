@@ -20,6 +20,13 @@
       "key": "image 3",
       "width": 1920,
       "height": 1080
+    },
+    {
+      "url": "/perseidas-4.jpg",
+      "alt": "image 4",
+      "key": "image 4",
+      "width": 1920,
+      "height": 1080
     }
   ]
 }

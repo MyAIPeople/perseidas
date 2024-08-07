@@ -5,10 +5,17 @@
     "languages": ["Anglais", "Espagnol", "Français", "Italien", "Russe", "Allemand"]
   },
   "navbar": {
-    "nav": ["PROFITEZ EN DIRECT", "CONNECTER", "HISTOIRES", "INSPIRER", "CONTACT"]
+    "nav": ["PROFITEZ", "CONNECTER", "HISTOIRES", "INSPIRER", "CONTACT"]
   },
   "home": {
     "h1": "PERSEIDAS",
     "button": "Confirmer"
+  },
+  "enjoy": {
+    "h1": {
+      "span1": "PROFITEZ DES",
+      "span2": "PERSÉIDES",
+      "span3": ""
+    }
   }
 }

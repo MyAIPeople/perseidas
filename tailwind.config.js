@@ -14,6 +14,7 @@ module.exports = {
     fontFamily: {
       roboto_mono: ["var(--font-roboto_mono)"],
       caveat: ["var(--font-caveat)"],
+      oswald: ["var(--font-oswald)"],
     },
     extend: {
       colors: {

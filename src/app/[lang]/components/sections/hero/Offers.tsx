@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Offers = () => {
@@ -11,10 +12,15 @@ const Offers = () => {
 
       <div className="flex flex-col justify-center items-center mt-4">
         <p className="text-white text-xs md:text-sm font-light">RESERVAS EN:</p>
-        <div className="flex">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"https://www.fourvenues.com/arico-cave-experience1/BFQT"}
+          className="flex"
+        >
           <Image src={"/bolt.svg"} width={25} height={25} alt="bolt icon" />
           <p className="text-white font-roboto_mono italic text-xl md:text-2xl">fourvenues</p>
-        </div>
+        </a>
       </div>
     </div>
   );

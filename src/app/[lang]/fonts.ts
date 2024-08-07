@@ -1,4 +1,4 @@
-import { Caveat, Roboto_Mono } from "next/font/google";
+import { Caveat, Roboto_Mono, Oswald } from "next/font/google";
 
 export const caveat = Caveat({
   subsets: ["latin"],
@@ -12,4 +12,11 @@ export const roboto_mono = Roboto_Mono({
   display: "swap",
   style: "italic",
   variable: "--font-roboto_mono",
+});
+
+export const oswald = Oswald({
+  subsets: ["latin"],
+  display: "swap",
+  style: "normal",
+  variable: "--font-oswald",
 });

@@ -5,10 +5,17 @@
     "languages": ["English", "Spanish", "French", "Italian", "Russian", "German"]
   },
   "navbar": {
-    "nav": ["ENJOY LIVE", "CONNECT", "STORIES", "INSPIRE", "CONTACT"]
+    "nav": ["ENJOY", "CONNECT", "STORIES", "INSPIRE", "CONTACT"]
   },
   "home": {
     "h1": "PERSEIDAS",
     "button": "Confirm"
+  },
+  "enjoy": {
+    "h1": {
+      "span1": "ENJOY",
+      "span2": "PERSEIDS",
+      "span3": ""
+    }
   }
 }

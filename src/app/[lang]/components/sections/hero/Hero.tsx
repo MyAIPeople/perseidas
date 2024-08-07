@@ -53,22 +53,17 @@ const Hero = async ({ lang }: { lang: Locale }) => {
           quality={100}
         />
       </Link>
-      <div className="fixed z-[55] top-4 left-[68px] md:top-8 md:left-32 h-12 w-14 md:h-16 md:w-[90px] backdrop-blur-sm bg-black/20 blur-md rounded-2xl overflow-hidden"></div>
+      <div className="fixed z-[55] top-5 left-11 md:top-8 md:left-40 h-20 w-14 md:h-36 md:w-[90px] backdrop-blur-sm bg-black/20 blur-md rounded-xl overflow-hidden"></div>
 
       <Carousel />
 
       <div className="absolute z-50 h-screen w-full flex flex-col gap-4 items-center justify-center md:justify-end pb-24">
-        {/* <div className="flex flex-col items-center relative">
-          <H1hero text={home.h1} />
-          <Subh1 />
-        </div> */}
-
         <Image
           src={"/perseidas-h1.png"}
           alt="perseidas h1"
           height={200}
           width={650}
-          className="h-[200px] w-[350px] md:h-[400px] md:w-[650px]"
+          className="h-[200px] w-[350px] md:h-[400px] md:w-[680px]"
         />
 
         <Link

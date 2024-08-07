@@ -4,7 +4,7 @@ import "./globals.css";
 import { Locale, i18n } from "@/configs/i18n.config";
 import DictionaryProvider from "@/providers/DictionaryProvider";
 import { getDictionary } from "@/configs/dictionary";
-import { caveat, roboto_mono } from "./fonts";
+import { caveat, oswald, roboto_mono } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Perseidas",
@@ -50,7 +50,7 @@ export default async function RootLayout({
 
   return (
     <html className="scroll-smooth" lang={params.lang}>
-      <body className={`${roboto_mono.variable}, ${caveat.variable}`}>
+      <body className={roboto_mono.variable}>
         <DictionaryProvider dictionary={dictionary}>{children}</DictionaryProvider>
       </body>
     </html>

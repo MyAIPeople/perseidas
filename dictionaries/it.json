@@ -5,10 +5,17 @@
     "languages": ["Inglese", "Spagnolo", "Francese", "Italiano", "Russo", "Tedesco"]
   },
   "navbar": {
-    "nav": ["DIVERTITI DAL VIVO", "COLLEGATI", "STORIE", "ISPIRA", "CONTATTO"]
+    "nav": ["GODITI", "COLLEGATI", "STORIE", "ISPIRA", "CONTATTO"]
   },
   "home": {
     "h1": "PERSEIDAS",
     "button": "Conferma"
+  },
+  "enjoy": {
+    "h1": {
+      "span1": "GODITI LE",
+      "span2": "PERSEIDI",
+      "span3": ""
+    }
   }
 }
