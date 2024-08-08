@@ -1,5 +1,3 @@
-"use client";
-import React from "react";
 import { EmblaOptionsType } from "embla-carousel";
 import EmblaCarousel from "./EmblaCarousel";
 import H1Carousel from "./H1Carousel";

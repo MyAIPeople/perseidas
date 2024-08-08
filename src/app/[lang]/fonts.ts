@@ -5,6 +5,7 @@ export const caveat = Caveat({
   display: "swap",
   style: "normal",
   variable: "--font-caveat",
+  adjustFontFallback: false,
 });
 
 export const roboto_mono = Roboto_Mono({
@@ -12,6 +13,7 @@ export const roboto_mono = Roboto_Mono({
   display: "swap",
   style: "italic",
   variable: "--font-roboto_mono",
+  adjustFontFallback: false,
 });
 
 export const oswald = Oswald({
@@ -19,4 +21,5 @@ export const oswald = Oswald({
   display: "swap",
   style: "normal",
   variable: "--font-oswald",
+  adjustFontFallback: false,
 });

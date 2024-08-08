@@ -1,4 +1,4 @@
-import { caveat, roboto_mono } from "@/app/[lang]/fonts";
+import { caveat } from "@/app/[lang]/fonts";
 import { cn } from "@/lib/utils";
 
 const Subh1 = () => {

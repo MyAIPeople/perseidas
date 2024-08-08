@@ -1,12 +1,11 @@
-import { getDictionary } from "@/configs/dictionary";
 import { Locale } from "@/configs/i18n.config";
 import Navbar from "./components/navbar";
 import Hero from "./components/sections/hero";
 import Carousel1 from "./components/sections/carousel1";
 import GetInspired from "./components/sections/getInspired";
+import Footer from "./components/sections/footer";
 
-const Home = async ({ params: { lang } }: { params: { lang: Locale } }) => {
-  const { first } = await getDictionary(lang);
+const Home = ({ params: { lang } }: { params: { lang: Locale } }) => {
   return (
     <main className="overflow-x-hidden">
       <Navbar lang={lang} />
@@ -14,7 +13,7 @@ const Home = async ({ params: { lang } }: { params: { lang: Locale } }) => {
       <Hero lang={lang} />
       <Carousel1 />
       <GetInspired lang={lang} />
-      <h1 className="text-2xl font-caveat">{first}</h1>
+      <Footer />
     </main>
   );
 };

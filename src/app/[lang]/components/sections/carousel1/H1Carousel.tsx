@@ -1,3 +1,5 @@
+"use client";
+
 import { oswald } from "@/app/[lang]/fonts";
 import { cn } from "@/lib/utils";
 import { useDictionary } from "@/providers/DictionaryProvider";

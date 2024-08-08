@@ -36,16 +36,6 @@ const GetInspired = async ({ lang }: { lang: Locale }) => {
         }
       />
 
-      <div className="flex items-end h-full">
-        <Image
-          className="absolute -right-9 bottom-8 opacity-25 lg:opacity-100"
-          src={"/LogoGomaVertical.svg"}
-          alt="vertical logo"
-          height={700}
-          width={180}
-        />
-      </div>
-
       <div className="relative z-20 text-center pt-16 md:pt-32 pb-8 md:pb-16">
         <H2GetInspired text={inspire.h1} />
       </div>
