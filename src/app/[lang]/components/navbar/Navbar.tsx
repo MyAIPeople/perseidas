@@ -16,7 +16,7 @@ const Navbar = async ({ lang }: { lang: Locale }) => {
             {navbar.nav[0]}
           </span>
         </Link>
-        <Link href="#conect">
+        <Link href="#about">
           <span className="hover:text-yellow-200 shadow-red-100 hover:text-shadow-lg text-yellow-500 lg:text-md">
             {navbar.nav[1]}
           </span>

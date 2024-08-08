@@ -5,7 +5,7 @@
     "languages": ["Inglese", "Spagnolo", "Francese", "Italiano", "Russo", "Tedesco"]
   },
   "navbar": {
-    "nav": ["GODITI", "COLLEGATI", "STORIE", "ISPIRA", "CONTATTO"]
+    "nav": ["GODITI", "INFORMAZIONI", "STORIE", "ISPIRA", "CONTATTO"]
   },
   "home": {
     "h1": "PERSEIDAS",
@@ -16,6 +16,23 @@
       "span1": "GODITI LE",
       "span2": "PERSEIDI",
       "span3": ""
+    }
+  },
+  "inspire": {
+    "h1": {
+      "span1": "INFORMAZIONI SU",
+      "span2": "PERSEIDAS EXPERIENCE"
+    },
+    "text": {
+      "p1": "Pronto a vivere una notte magica sotto le stelle? 🌌 Il 16 agosto, ti invitiamo a un'esperienza unica che non vorrai perdere: Perseidas Experience.",
+      "p2": "All'Arico Cave Experience, ogni notte è un'opportunità per sognare sotto un cielo stellato. 🌠 Immagina di condividere questo ambiente magico con qualcuno di speciale, godendo della tranquillità e della bellezza delle nostre grotte uniche.",
+      "p3": "Immagina un cielo stellato, l'ambiente naturale più spettacolare e alcune sorprese che ti lasceranno senza fiato. 🌿🔮 Inoltre, godremo di una squisita degustazione di vini e una gastronomia che delizierà i tuoi sensi."
+    },
+    "caption": {
+      "span1": "Vieni a scoprire",
+      "normalText": "cosa abbiamo preparato per te a",
+      "span2": "Arico Cave Experience",
+      "span3": "!"
     }
   }
 }

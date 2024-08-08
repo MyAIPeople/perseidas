@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 const Circle = ({
-  color = "border-red-600",
+  color = "border-yellow-600",
   position,
   z,
   translateX,
@@ -9,7 +9,7 @@ const Circle = ({
   shadow = "shadow-md",
   className,
 }: {
-  color?: "border-red-700" | "border-white" | "border-red-600";
+  color?: "border-yellow-500" | "border-white" | "border-yellow-600";
   position?: "relative" | "fixed" | "absolute" | "sticky";
   z?: string;
   translateX?: string;
@@ -20,7 +20,7 @@ const Circle = ({
   return (
     <div
       className={cn(
-        `rounded-full st`,
+        `rounded-full`,
         `${color}`,
         `${z}`,
         `${position}`,

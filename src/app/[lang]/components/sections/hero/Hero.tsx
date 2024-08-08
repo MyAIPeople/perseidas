@@ -1,11 +1,9 @@
 import Image from "next/image";
 import Carousel from "./Carousel";
-import H1hero from "./H1hero";
 import Link from "next/link";
 import Circle from "../../circle";
 import { Locale } from "@/configs/i18n.config";
 import { getDictionary } from "@/configs/dictionary";
-import Subh1 from "./Subh1";
 import Date from "./Date";
 import Offers from "./Offers";
 
@@ -17,16 +15,16 @@ const Hero = async ({ lang }: { lang: Locale }) => {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href={"https://www.koala360.com/tour?id=10226"}
+        href={"https://www.instagram.com/aricocaveexperience/"}
         id="box"
         className="fixed top-16 md:top-auto right-8 md:bottom-16 md:right-16 z-[120] cursor-pointer"
       >
-        <div className="relative h-12 w-12 md:h-16 md:w-16 overflow-hidden rounded-2xl p-[1px] backdrop-blur-3xl">
-          <span className="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#f7ff9e_0%,#847e05_50%,#f7ff9e_100%)]" />
+        <div className="relative h-12 w-12 md:h-16 md:w-16 overflow-hidden rounded-full p-[1px] backdrop-blur-3xl">
+          <span className="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#fdffe5_0%,#847e05_50%,#f7ff9e_100%)]" />
 
           <Image
-            className="inline-flex h-full w-full items-center justify-center rounded-2xl bg-gray-950 p-2 text-sm font-medium text-gray-50 backdrop-blur-3xl"
-            src={"/rotate-axis.svg"}
+            className="inline-flex h-full w-full items-center justify-center rounded-full bg-gray-950 p-2 text-sm font-medium text-gray-50 backdrop-blur-3xl"
+            src={"/insta-icon.svg"}
             height={100}
             width={100}
             alt="rotate-axis"
@@ -35,7 +33,7 @@ const Hero = async ({ lang }: { lang: Locale }) => {
       </a>
 
       <Circle
-        color="border-red-600"
+        color="border-yellow-600"
         position="fixed"
         z="z-[100]"
         className={
@@ -66,15 +64,17 @@ const Hero = async ({ lang }: { lang: Locale }) => {
           className="h-[200px] w-[350px] md:h-[400px] md:w-[680px]"
         />
 
-        <Link
-          href={`/${lang}/confirm`}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"https://www.fourvenues.com/arico-cave-experience1/BFQT"}
           className="shadow-md hover:shadow-yellow-600 transition-shadow duration-300 relative inline-flex h-12 overflow-hidden rounded-full p-[1.5px] focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50"
         >
           <span className="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#fff8a6_0%,#b3b520_50%,#fff8a6_100%)]" />
           <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-gray-950 px-8 py-1 text-sm font-medium text-gray-50 backdrop-blur-3xl">
             {home.button.toUpperCase()}
           </span>
-        </Link>
+        </a>
 
         <Offers />
         <Date />
