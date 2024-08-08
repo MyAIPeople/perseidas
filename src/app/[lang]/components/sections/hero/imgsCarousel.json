@@ -1,9 +1,9 @@
 {
   "images": [
     {
-      "url": "/starry-night-sky.jpg",
-      "alt": "image 1",
-      "key": "image 1",
+      "url": "/cuevas-00.webp",
+      "alt": "cuevas 0",
+      "key": "cuevas 0",
       "width": 1920,
       "height": 1080
     },
@@ -15,9 +15,23 @@
       "height": 1080
     },
     {
+      "url": "/cuevas-01.webp",
+      "alt": "cuevas 1",
+      "key": "cuevas 1",
+      "width": 1920,
+      "height": 1080
+    },
+    {
       "url": "/perseidas-3.jpg",
       "alt": "image 3",
       "key": "image 3",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "url": "/cuevas-02.webp",
+      "alt": "cuevas 2",
+      "key": "cuevas 2",
       "width": 1920,
       "height": 1080
     },
