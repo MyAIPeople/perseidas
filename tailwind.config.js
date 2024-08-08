@@ -74,11 +74,21 @@ module.exports = {
             opacity: "0",
           },
         },
+        "loop-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
+        "loop-scroll-right": {
+          from: { transform: "translateX(-100%)" },
+          to: { transform: "translateX(0)" },
+        },
       },
       animation: {
         "meteor-effect": "meteor 5s linear infinite",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "loop-scroll": "loop-scroll 25s linear infinite",
+        "loop-scroll-right": "loop-scroll-right 40s linear infinite",
       },
     },
   },

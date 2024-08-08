@@ -1,8 +1,8 @@
-import { Facebook, InstagramIcon, Mail, MapPin, Phone, YoutubeIcon } from "lucide-react";
+import { Facebook, InstagramIcon, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col gap-4 items-center bg-black text-white p-4 py-16">
+    <footer id="contact" className="flex flex-col gap-4 items-center justify-center bg-black text-white p-4 h-[50vh]">
       <div className="flex items-center justify-center space-x-4">
         <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=61563395220882">
           <Facebook className="text-white h-6 w-6" />

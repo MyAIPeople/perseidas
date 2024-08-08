@@ -5,7 +5,7 @@
     "languages": ["Englisch", "Spanisch", "Französisch", "Italienisch", "Russisch", "Deutsch"]
   },
   "navbar": {
-    "nav": ["GENIESSEN", "ÜBER", "GESCHICHTEN", "INSPIRIEREN", "KONTAKT"]
+    "nav": ["GENIESSEN", "ÜBER", "KONTAKT"]
   },
   "home": {
     "h1": "PERSEIDAS",

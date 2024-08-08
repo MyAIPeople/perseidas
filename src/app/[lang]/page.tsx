@@ -4,6 +4,7 @@ import Hero from "./components/sections/hero";
 import Carousel1 from "./components/sections/carousel1";
 import GetInspired from "./components/sections/getInspired";
 import Footer from "./components/sections/footer";
+import CarouselBrands from "./components/sections/carousel-brands";
 
 const Home = ({ params: { lang } }: { params: { lang: Locale } }) => {
   return (
@@ -13,6 +14,7 @@ const Home = ({ params: { lang } }: { params: { lang: Locale } }) => {
       <Hero lang={lang} />
       <Carousel1 />
       <GetInspired lang={lang} />
+      <CarouselBrands />
       <Footer />
     </main>
   );

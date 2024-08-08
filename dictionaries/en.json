@@ -5,7 +5,7 @@
     "languages": ["English", "Spanish", "French", "Italian", "Russian", "German"]
   },
   "navbar": {
-    "nav": ["ENJOY", "ABOUT", "STORIES", "INSPIRE", "CONTACT"]
+    "nav": ["ENJOY", "ABOUT", "CONTACT"]
   },
   "home": {
     "h1": "PERSEIDAS",
