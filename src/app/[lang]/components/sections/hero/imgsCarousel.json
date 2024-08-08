@@ -1,6 +1,13 @@
 {
   "images": [
     {
+      "url": "/perseidas-3.jpg",
+      "alt": "image 3",
+      "key": "image 3",
+      "width": 1920,
+      "height": 1080
+    },
+    {
       "url": "/cuevas-00.webp",
       "alt": "cuevas 0",
       "key": "cuevas 0",
@@ -8,9 +15,17 @@
       "height": 1080
     },
     {
-      "url": "/perseidas-2.jpg",
-      "alt": "image 2",
-      "key": "image 2",
+      "video": true,
+      "url": "https://minio.myaipeople.com/api/v1/buckets/perseidas/objects/download?preview=true&prefix=perseidas-video-banner-01.webm&version_id=null",
+      "alt": "video 1",
+      "key": "video 1",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "url": "/perseidas-4.jpg",
+      "alt": "image 4",
+      "key": "image 4",
       "width": 1920,
       "height": 1080
     },
@@ -22,9 +37,9 @@
       "height": 1080
     },
     {
-      "url": "/perseidas-3.jpg",
-      "alt": "image 3",
-      "key": "image 3",
+      "url": "/perseidas-2.jpg",
+      "alt": "image 2",
+      "key": "image 2",
       "width": 1920,
       "height": 1080
     },
@@ -32,13 +47,6 @@
       "url": "/cuevas-02.webp",
       "alt": "cuevas 2",
       "key": "cuevas 2",
-      "width": 1920,
-      "height": 1080
-    },
-    {
-      "url": "/perseidas-4.jpg",
-      "alt": "image 4",
-      "key": "image 4",
       "width": 1920,
       "height": 1080
     }

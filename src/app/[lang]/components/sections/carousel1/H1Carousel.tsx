@@ -9,7 +9,7 @@ const H1Carousel = () => {
 
   return (
     <h1 className={cn(oswald.variable, "font-oswald text-center text-3xl md:text-5xl font-semibold text-white")}>
-      {enjoy.h1.span1} <span className="text-yellow-500">{enjoy.h1.span2}</span> {enjoy.h1.span3}
+      {enjoy.h1.span1} <span className="text-[#ef9100]">{enjoy.h1.span2}</span> {enjoy.h1.span3}
     </h1>
   );
 };

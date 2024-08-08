@@ -91,7 +91,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
         </div>
 
         <button
-          className="px-1.5 md:px-4 bg-black/60 hover:bg-black/10 shadow-md shadow-yellow-500 rounded-3xl"
+          className="px-1.5 md:px-4 bg-black/60 hover:bg-black/10 shadow-md shadow-[#ef9100] rounded-3xl"
           onClick={toggleAutoplay}
           type="button"
         >

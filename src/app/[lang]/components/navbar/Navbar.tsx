@@ -12,17 +12,17 @@ const Navbar = async ({ lang }: { lang: Locale }) => {
       <div className="flex gap-6 items-center">
         <NavbarDropdown />
         <Link href="#enjoy-live">
-          <span className="hover:text-yellow-200 shadow-red-100 hover:text-shadow-lg text-yellow-500 lg:text-md">
+          <span className="hover:text-yellow-200 shadow-red-100 hover:text-shadow-lg text-[#ef9100] lg:text-md">
             {navbar.nav[0]}
           </span>
         </Link>
         <Link href="#about">
-          <span className="hover:text-yellow-200 shadow-red-100 hover:text-shadow-lg text-yellow-500 lg:text-md">
+          <span className="hover:text-yellow-200 shadow-red-100 hover:text-shadow-lg text-[#ef9100] lg:text-md">
             {navbar.nav[1]}
           </span>
         </Link>
         <Link href="#contact">
-          <span className="hover:text-yellow-200 shadow-red-100 hover:text-shadow-lg text-yellow-500 lg:text-md">
+          <span className="hover:text-yellow-200 shadow-red-100 hover:text-shadow-lg text-[#ef9100] lg:text-md">
             {navbar.nav[2]}
           </span>
         </Link>

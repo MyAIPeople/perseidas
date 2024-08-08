@@ -12,10 +12,10 @@ const GetInspiredCallToAction = ({
 }) => {
   return (
     <p className="text-xl md:text-2xl text-white py-8 text-center md:text-left">
-      <span className="text-yellow-500 text-3xl md:text-4xl font-bold">{text.span1}</span> {text.normalText}
+      <span className="text-[#ef9100] text-3xl md:text-4xl font-bold">{text.span1}</span> {text.normalText}
       <br />
       <span className="text-white text-2xl md:text-4xl font-semibold"> {text.span2}</span>
-      <span className="text-yellow-500 text-3xl md:text-4xl font-bold"> {text.span3}</span>
+      <span className="text-[#ef9100] text-3xl md:text-4xl font-bold"> {text.span3}</span>
     </p>
   );
 };
