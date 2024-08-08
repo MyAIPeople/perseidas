@@ -5,10 +5,16 @@ import Carousel1 from "./components/sections/carousel1";
 import GetInspired from "./components/sections/getInspired";
 import Footer from "./components/sections/footer";
 import CarouselBrands from "./components/sections/carousel-brands";
+import NavbarDropdown from "./components/navbar/NavbarDropdown";
 
 const Home = ({ params: { lang } }: { params: { lang: Locale } }) => {
   return (
     <main className="overflow-x-hidden">
+      <div className="flex items-center justify-center md:hidden">
+        <div className="fixed z-[110] top-2 md:hidden ">
+          <NavbarDropdown />
+        </div>
+      </div>
       <Navbar lang={lang} />
       <div className="hidden md:block fixed z-[190] h-14 w-3/4 right-0 backdrop-blur-sm bg-gradient-to-l from-black via-black to-transparent rounded-l-full overflow-hidden"></div>
       <Hero lang={lang} />
